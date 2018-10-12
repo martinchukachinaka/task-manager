@@ -1,0 +1,24 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "Task Manager Take 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 9000 -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinchukachinaka/task-manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinchukachinaka/task-manager/issues"
+  },
+  "homepage": "https://github.com/martinchukachinaka/task-manager#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}

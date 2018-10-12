@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f0efe9;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.app-container {
+  width: 80%;
+  background-color: white;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+@media (min-width: 576px) {
+  body {
+    display: flex;
+    align-items: center;
+  }
+  .app-container {
+    width: 60%;
+    min-height: 30vh;
+    background-color: white;
+    margin: 0 auto;
+    padding: 1rem;
+    box-shadow: 1px 1px 5px 0px #ccc;
+  }
+}
+
+@media (min-width: 768px) {
+  .app-container {
+    width: 25%;
+    padding: 2rem;
+  }
+}
+
+.tasks__list,
+.tasks__edit {
+  padding: 1rem 0 2rem;
+}
+
+.tasks__action {
+  margin-top: 2rem;
+}
+
+.task__item {
+  padding: 1rem 0;
+}
+
+.no-link {
+  color: inherit;
+  text-decoration: none;
+}
