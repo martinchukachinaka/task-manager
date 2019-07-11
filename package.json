@@ -4,7 +4,7 @@
   "description": "Task Manager Take 1",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -p 9000 -o",
+    "start": "./node_modules/.bin/http-server -p 9000 -o",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
